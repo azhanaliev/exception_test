@@ -1,5 +1,6 @@
 import 'dart:convert';
-import 'dart:developer';
+
+// import 'dart:developer';
 import 'dart:io';
 
 import 'package:exception_test/failure.dart';
@@ -14,7 +15,7 @@ class UserRepository {
 
       var json = jsonDecode(response.body);
       List<User> users =
-      List<User>.from(json.map((json) => User.fromJson(json)));
+          List<User>.from(json.map((json) => User.fromJson(json)));
 
       //! No Internet Connection
       // throw const SocketException('Error Internet');

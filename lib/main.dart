@@ -1,9 +1,9 @@
+// import 'package:exception_test/repositories/user_repository.dart';
 import 'package:exception_test/provider/user_provider.dart';
-import 'package:exception_test/repositories/user_repository.dart';
-import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter/material.dart';
 
-import 'models/user.dart';
+// import 'models/user.dart';
 
 void main() {
   runApp(const MyApp());
